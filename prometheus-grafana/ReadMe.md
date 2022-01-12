@@ -1,2 +1,2 @@
-#How to run Prometheus and Grafana using Docker Compose
-##Docker Compose is used for running multiple containers as one service. If you have an application/ stack requiring different services, docker compose enables creating one file which would start all containers as one service and avoid the need to start them separately. It is also possible to start one service at a time with docker compose. Today, we are going to look at how to run Prometheus and Grafana using docker compose.
+# How to run Prometheus and Grafana using Docker Compose
+## Docker Compose is used for running multiple containers as one service. If you have an application/ stack requiring different services, docker compose enables creating one file which would start all containers as one service and avoid the need to start them separately. It is also possible to start one service at a time with docker compose. Today, we are going to look at how to run Prometheus and Grafana using docker compose.
