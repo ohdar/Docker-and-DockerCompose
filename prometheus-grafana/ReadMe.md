@@ -43,15 +43,16 @@ sudo rm /usr/local/bin/docker-compose
 ```
 
 ### Commands:
+```
 1.	sudo docker-compose -f docker-compose.yml up -d Install Prometheus and Grafana in with Docker-Compose. 
 2.	docker stop stops one or more containers. docker stop mycontainer stops one container, while docker stop $(docker ps -a -q) stops all running containers.
 3.	docker-compose down
-
+```
 ### How do I stop and delete all containers in docker?
 ### Procedure
-1.	Stop the container(s) using the following command: docker-compose down.
-2.	Delete all containers using the following command: docker rm -f $(docker ps -a -q)
-3.	Delete all volumes using the following command: docker volume rm $(docker volume ls -q)
+1.	Stop the container(s) using the following command: ``` docker-compose down. ```
+3.	Delete all containers using the following command: ``` docker rm -f $(docker ps -a -q) ```
+4.	Delete all volumes using the following command: ``` docker volume rm $(docker volume ls -q) ```
 
 ## Prune unused Docker objects
 ### **Prune images**
