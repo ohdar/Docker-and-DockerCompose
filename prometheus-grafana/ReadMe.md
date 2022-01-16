@@ -4,8 +4,8 @@
 1.	Window 10 Client Machine
 2.	Git Bash Installed in Windows 10
 3.	Ubuntu Server 20.04 LTS VM in Proxmox / VirtualBox / Azure Cloud / AWS Cloud
- ⦁	Ram : 4GB
- ⦁	Virtual CPU : 2
+    * Ram : 4GB
+    * Virtual CPU : 2
 
 ## Install using the convenience script
 ```
